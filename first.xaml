@@ -1,0 +1,17 @@
+﻿<Window x:Class="zadanieeeee.first"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zadanieeeee"
+        mc:Ignorable="d"
+        Title="first" Height="405.328" Width="517.623">
+    <Grid>
+        <Button x:Name="Connect" Width="100" Height="30" Content="Войти" Click="Connect_Click" Margin="225,217,185,127" />
+        <Button x:Name="Cancel" Width="100" Height="30" Content="Отмена" Click="Cancel_Click" Margin="362,217,48,127" />
+        <TextBlock x:Name="User" Width="100" Height="30" Text="Имя пользователя" Margin="98,98,312,246"  />
+        <TextBlock x:Name="Password" Width="100" Height="30" Text="Пароль" Margin="98,144,312,200"/>
+        <ComboBox Height="30" Margin="286,95,79,244" />
+        <PasswordBox Height="30" PasswordChar="*" Margin="286,141,79,198"/>
+    </Grid>
+</Window>
